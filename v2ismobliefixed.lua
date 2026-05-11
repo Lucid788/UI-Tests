@@ -18,7 +18,6 @@ ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Global;
 ScreenGui.Parent = CoreGui;
 
 -- Detect if on mobile
-local Platform = InputService:GetPlatform();
 Library.IsMobile = (InputService.TouchEnabled) or false
 if Library.IsMobile then
     Library.ScaleFactor = 0.7; -- Adjust scale for mobile
