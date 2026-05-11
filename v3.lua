@@ -10,7 +10,6 @@ local LocalPlayer = Players.LocalPlayer;
 local Mouse = LocalPlayer:GetMouse();
 
 local ProtectGui = protectgui or (syn and syn.protect_gui) or (function() end);
-local Platform = game:GetService("UserInputService").TouchEnabled and Enum.Platform.Mobile or Enum.Platform.Desktop
 local ScreenGui = Instance.new('ScreenGui');
 ProtectGui(ScreenGui);
 
